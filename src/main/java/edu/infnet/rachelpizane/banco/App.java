@@ -8,8 +8,8 @@ public class App {
 
         System.out.println("[CONTA CRIADA]");
         System.out.println(conta.toString());
-        System.out.printf("Rendimento: R$ %.2f", conta.calcularRendimento());
-        System.out.print("\n");
+        System.out.printf("Rendimento: R$ %.2f\n\n", conta.calcularRendimento());
+
 
         conta.deposita(500.80);
 
