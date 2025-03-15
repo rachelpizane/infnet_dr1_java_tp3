@@ -1,4 +1,4 @@
-package edu.infnet.rachelpizane;
+package edu.infnet.rachelpizane.questao01;
 
 /**
  * Hello world!
