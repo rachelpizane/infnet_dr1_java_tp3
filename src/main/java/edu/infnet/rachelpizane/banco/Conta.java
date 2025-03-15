@@ -35,10 +35,6 @@ public class Conta {
         return this.saldo * 0.1;
     }
 
-    public String calcularRendimentoFormatado() {
-        return String.format("%.2f", calcularRendimento());
-    }
-
     private void validarValor(double valor) {
         if (valor < 0) {
             throw new IllegalArgumentException("Valor inválido");

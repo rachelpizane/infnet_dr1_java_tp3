@@ -3,12 +3,12 @@ package edu.infnet.rachelpizane.banco;
 public class App {
     public static void main(String[] args) {
         // Solução das questões 7, 8 e 9
-        
+
         Conta conta = new Conta("Carla Garcia", 2561, "45-6", 1000, "14/05/2021");
 
         System.out.println("[CONTA CRIADA]");
         System.out.println(conta.toString());
-        System.out.println("Rendimento: R$ " + conta.calcularRendimento());
+        System.out.printf("Rendimento: R$ %.2f", conta.calcularRendimento());
         System.out.print("\n");
 
         conta.deposita(500.80);
@@ -21,7 +21,7 @@ public class App {
 
         System.out.println("[APÓS O SAQUE]");
         System.out.println(conta.toString());
-        System.out.println("Rendimento: R$ " + conta.calcularRendimentoFormatado());
+        System.out.printf("Rendimento: R$ %.2f", conta.calcularRendimento());
         System.out.print("\n");
     }
 }
